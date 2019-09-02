@@ -1,0 +1,1100 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+
+#location {
+
+    font-size: 14px;
+}
+
+.navigation-um > div {
+
+	display: initial!important;
+	align-self: initial!important;
+}
+
+   .product-carousel-item.slick-slide {
+
+        min-height: 370px;
+    }
+    .slick-slider .text-white {
+    color: #ff5622 !important;
+    } 
+
+    .product-carousel span.suggested_price {
+
+        text-decoration: line-through;
+    }
+    .product-carousel span.listprice {
+
+    color: #e08026;
+    font-weight: bold;
+    }
+
+    .product-carousel .wrapper-ribbon {
+
+        display: block!important;
+    }
+    .product-carousel .ribbon-thumb {
+
+        display: block;
+    background: url(https://cdn.totalcode.com.co/universomas-sandbox/web_content/assets/huella.png) center top no-repeat;
+    background-size: 100%;
+    z-index: 1;
+    font-weight: bold;
+    height: 80px;
+    width: 80px;
+    line-height: 25px;
+    padding-top: 30px;
+    padding-left: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    right: 0px;
+    top: 0;
+    position: absolute;
+    }
+    .product-carousel-item.slick-slide {
+        width: none!important;
+    }
+
+#main-mega-menu ul > li {
+
+  display: inline-block;
+
+}
+.vertical-menu-um {
+	width: auto;
+	position: static;
+}
+.vertical-menu-um ul {
+
+	margin: 0;
+	padding: 0;
+
+}
+.btn-green {
+	background: #56D1C3;
+}
+
+
+
+.vertical-menu-um  .has-children ul li  ul > li {
+
+	display: block;
+	clear: both;
+}
+.vertical-menu-um  .has-children ul li  ul  li > a {
+	border:none;
+	padding: 0px;
+}
+.vertical-menu-um  > ul > li {
+
+    display: flex;
+	flex: 1 1 0px;
+	-webkit-flex: 1 1 0px;
+    -ms-flex: 1 1 0px;
+	width: auto;
+	float: left;
+
+}
+
+
+.vertical-menu-um ul li > a {
+
+	display: block;
+	width: 100%;
+	margin: 0;
+	border-radius: 0;
+	background-color: #56D1C3;
+	color:#fefefe !important;
+	padding: 0.5em 0.8em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+	border: 1px solid transparent;
+	text-align: center;
+}
+
+.vertical-menu-um > ul > li > ul > li > a:before {
+
+	content: '';
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 5px;
+	background-image: url('https://www.universomascotas.co/css/universomascotas/comida.png');
+	background-size: 20px;
+	background-repeat: no-repeat;
+
+}
+
+#accesorios_y_juguetes_3:before,#accesorios_y_juguetes_42:before {
+
+ background-image: url('https://www.universomascotas.co/css/universomascotas/accesorios-juguetes.png');
+
+}
+#antiplugas_y_antiparasitarios_4:before,#antiplugas_y_antiparasitarios_44:before {
+
+ background-image: url('https://www.universomascotas.co/css/universomascotas/antipulgas-antiparacitarios.png');
+
+}
+#estÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©tica_y_cuidado_6:before,#estÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©tica_y_cuidado_43:before{
+
+ background-image: url('https://www.universomascotas.co/css/universomascotas/estetica-cuidados.png');
+
+}
+#comida_2:before{
+
+ background-image: url('https://www.universomascotas.co/css/universomascotas/comida.png');
+
+}
+#estÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©tica_y_cuidado_6:before,#estÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©tica_y_cuidado_43:before{
+
+ background-image: url('https://www.universomascotas.co/css/universomascotas/estetica-cuidados.png');
+
+}
+#arenas_y_sanitarios_97:before {
+
+ background-image: url('https://cdndevel.totalcode.com/universomascotas.beta/web_content/assets/arenas.png');
+
+}
+
+#ropa_5:before{
+
+ background-image: url('https://www.universomascotas.co/css/universomascotas/talla.png');
+
+}
+
+
+#gatos_86:before{
+ background-image: url('https://www.universomascotas.co/css/universomascotas/bano-gato.png');
+
+}
+#perros_77:before{
+ background-image: url('https://www.universomascotas.co/css/universomascotas/estetica-cuidados.png');
+
+}
+
+#muebles_50:before {
+	 background-image: url('https://www.universomascotas.co/css/universomascotas/muebles.png');
+
+}
+#estÃƒÆ’Ã‚Â©tica_y_cuidado_43:before,#estÃƒÆ’Ã‚Â©tica_y_cuidado_6:before {
+   
+    background-image: url('https://cdn.totalcode.com.co/universomas-sandbox/web_content/assets/estetica-cuidados.png');
+
+}
+
+
+
+
+
+.navigation-um {
+
+	position: relative;
+}
+.navigation-um > div > a {
+
+	font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+
+}
+
+.mega-menu,.vertical-menu-um ul li > ul {
+
+	position: absolute;
+	z-index: 1000;
+	max-width: 1350px;
+    min-width: 658px;
+	background-color: #F3F0F1;
+	padding: 15px	;
+	display: none;
+	text-align: center;
+	top: 48px;
+	left: 0;
+	list-style: none;
+}
+.mega-menu > ul {
+	display: inline-block;
+}
+.mega-menu > ul,.mega-menu > ul > li > ul {
+
+	list-style: none;
+	margin:0;
+	text-align: left;
+	line-height: 1.2;
+}
+
+
+.mega-menu .dropdown-column,.vertical-menu-um ul li ul > li{
+
+	float:left;
+	padding: 0px 10px;
+	text-align: center;
+}
+.mega-menu .dropdown-column ul > .dropdown-header,.vertical-menu-um ul li ul li > a {
+	border-bottom: 2px solid #EE7C1C;
+    padding: 0px 5px;
+    background-color: transparent;
+    color: #706F6F!important;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 400;
+  
+}
+.mega-menu .dropdown-header > img {
+
+	width: 20px;
+    margin-right: 5px;
+}
+.mega-menu .dropdown-column  a {
+
+	  color: #706F6F;
+	  font-weight: 400;
+	  font-size: 14px;
+	  font-family: 'Rubik', sans-serif;
+	  font-weight: 400;
+
+}
+.dropdown::after {
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 0.3em;
+    content: '';
+    border-bottom-width: 0;
+    border-top-style: solid;
+    border-color: #fefefe transparent transparent;
+    position: absolute;
+    top: 1.2em;
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+	/*Categorias Principales */
+	.cat_main .texto_cat_main,.title-filtros p,.categories-filter .sp_cat_name {
+    background: #F3F0F1;
+    text-align: center;
+    color: #706F6F;
+    border: none;
+    font-size: 16px;
+    margin: 2px 0px;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+	}
+	.content_cat_main li.has-children {
+		position: relative;
+		background: none!important;
+	}
+	.content_cat_main li.has-children:after {
+
+	content: '';
+	width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    border: solid 4px;
+    background: transparent;
+    border-color: #706F6F transparent transparent;
+    border-top-style: solid;
+    border-bottom-width: 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+
+	}
+	.content_cat_main li.has-children ul {
+    display: none;
+	position: relative;
+    top: 0;
+    padding: 0px!important;
+    text-align: left;
+    left: 0px;
+    z-index: 50;
+    width: 100%;	
+	}
+	.content_cat_main li.has-children ul > li {
+
+		padding: 0px!important;
+	}
+	
+	.content_cat_main li.has-children:hover:after {
+	  border-color: transparent  transparent  transparent #ffffff;
+	  border-bottom-width: initial;
+
+	}
+	.lista_filtros li{
+
+		padding: 0px!important;
+	}
+	.lista_filtros > li > div > div {
+
+		padding-left: 1em;
+	}
+
+
+	.content_cat_main li.has-children > a,.content_cat_main li > a, .content_cat_main li.has-children ul > li,.content_cat_main li.has-children ul  li > a,.lista_filtros div > div.sp_opt_name {
+
+	  font-family: 'Rubik', sans-serif;
+	  font-weight: 400;
+	  background: #F3F0F1;
+      color: #706F6F!important;
+      font-size: 15px;
+      padding-top: 5px;
+      transition: all 0.3s;
+      -webkit-transition:all 0.3s;
+
+	}
+
+	.content_cat_main li.active > a,.content_cat_main li:hover > a,.lista_filtros > li > div > div.sp_opt_name:hover {
+		background-color: #4AB9AD!important;
+		color:#fff!important;
+	}
+
+	
+	
+	#perros_1:before {
+    content: '';
+    background-image: url(https://www.universomascotas.co/css/universomascotas/perro.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 31px;
+    background-position: left;
+	}
+	#gatos_34:before {
+    content: '';
+    background-image: url(https://www.universomascotas.co/css/universomascotas/gato.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 31px;
+    background-position: left;
+	}
+	#servicios_76:before {
+    content: '';
+    background-image: url(https://www.universomascotas.co/css/universomascotas/Servicios.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 31px;
+    background-position: left;
+	}
+
+	/*GEOLOCATION POSITION USER*/
+
+	.container-popup,#container-popup {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 0;
+    display: none;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    right: 0;
+   }
+
+   .container-popup {
+    display: flex;
+    position: relative;
+   }
+
+   .indicador_ciudad {
+
+   	display: none;
+   }
+
+
+   .container-popup > .indicador_ciudad {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 15px 10px 10px;
+    text-align: center;
+    width: 30%;
+    max-width: 500px;
+
+   }
+
+   .container-popup button {
+    background-color: #fc7449;
+    color: #fff;
+    padding: 5px 35px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+}
+
+.aceptacion_ciudad select {
+    width: 80%;
+    padding: 5px 25px;
+    background-color: #fff;
+    height: 30px;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    outline: 0;
+}
+
+/*Tiendas Oficiales*/
+
+main {
+    background-color: #fff;
+}
+
+.official_stores_title,.vendors  .grid-x > div:nth-child(1) {
+    margin-top: 10px;
+}
+
+.official_stores_title, .store_container .store_company > a,.vendors  .grid-x > div:nth-child(1) {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff582c;
+    width: 100%;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.official_stores_container {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+    padding: 0px 80px;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.official_stores_container > .store_container {
+    width: 20%;
+    min-height: 224px;
+    opacity: 0.5;
+    flex-direction: column;
+    display: flex;
+    border: 1px solid #ccc;
+    box-shadow: -2px 2px 5px #847e7e;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.store_container .store_logo {
+
+    overflow: hidden;
+}
+
+.store_container .store_logo > img {
+    width: 150px;
+}
+
+.store_container .store_company {
+    display: none;
+    transition: all 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.store_container .store_company > a {
+    font-size: 14px;
+    display: block;
+}
+
+.store_container .vendor_star_container {
+    font-family: 'Rubik', sans-serif;
+    display: none;
+    transition: all 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.vendor_star_container .vendor_stars_bg {
+    margin: 5px auto;
+}
+
+.store_container .vendor_city {
+    font-size: 13px;
+    display: block;
+    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.official_stores_container > .store_container:hover {
+
+	opacity: 1;
+
+}
+.official_stores_container > .store_container:hover .store_company {
+
+	display: block;
+}
+.official_stores_container > .store_container:hover .vendor_star_container {
+
+	display: block;
+}
+
+.store_container  .clasificacion > label:hover {
+
+	color: orange;
+
+}
+.store_container .clasificacion{
+      direction: rtl;/* right to left */
+      unicode-bidi: bidi-override;/* bidi de bidireccional */
+      margin:5px;
+  }
+  .store_container  .clasificacion > input[type="radio"]:checked ~ label {
+  	color: orange;
+  }
+.store_container  .clasificacion > input[type="radio"]{
+	display: none;
+}
+
+/*Tienda Oficial*/
+
+main.vendor {
+
+	background-color: #F3F4F6 !important;
+}
+
+.vendor .seller_title {
+    margin-top: 10px;
+}
+
+.vendor .seller_title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff582c;
+    width: 100%;
+    font-weight: 700;
+    text-decoration: none;
+}
+.seller_img {
+
+    display: none;
+}
+#container-image .seller_img {
+
+    display: block;
+}
+.info_seller .seller_img {
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 110px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: -2px 2px 5px #847e7e;
+}
+.info_seller .seller_img > img {
+    width: 120px;
+    height: auto;
+}
+
+.vendor .seller_info {
+
+	 color: initial;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: none;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.vendor .info_seller_container {
+
+	width: 100%;
+	float:left;
+}
+
+.info_seller {
+
+	margin-top: 20px;
+	text-align: center;
+	padding: 0px 25px;
+}
+
+.group_shield .dpr_container {
+
+  border: 1px solid #fe5a26;
+  margin: 1em 2px;
+  max-width: 24%;
+  min-height: 300px;
+  height: 327px;
+}
+
+.qualification_seller_login {
+    background-color: #e6e6e6;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+.qualification_seller_login > h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    color: #736673;
+}
+
+.qualification_seller_login  p {
+    font-size: 13px;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.container-popup > .indicador_ciudad {
+
+		width: 50%;
+	}
+	.official_stores_container{
+		padding: 0px;
+	}
+	.group_shield .dpr_container {
+
+		width: 49%;
+		max-width: 100%;
+        min-height: auto;
+	}
+	.vendor .seller_info {
+
+		text-align: center;
+	}
+
+}
+
+
+
+
+@media screen and (min-width: 1000px){
+
+	.navigation-um > div:nth-child(4) > a {
+
+		width: 180px;
+		background-color: #56D1C3;
+
+	}
+	 .navigation-um > div:nth-child(5) > a {
+
+	 	line-height: 32px;
+
+	 }
+	.navigation-um > div:nth-child(4) {
+		flex:inherit!important;
+	}
+
+	.vertical-menu-um  > ul > li:hover ul {
+
+	display: block;
+}
+.vertical-menu-um  .has-children ul li > ul {
+
+	display: contents!important;
+	width: 100%;
+}
+.vertical-menu-um > ul .has-children  #perros_1:before {
+
+      background-image: url('https://www.universomascotas.co/css/universomascotas/perro(blanco).png');
+}
+
+.vertical-menu-um > ul .has-children  #gatos_34:before {
+
+      background-image: url('https://www.universomascotas.co/css/universomascotas/gato(blanco).png');
+}
+
+.vertical-menu-um > ul .has-children  #servicios_76:before {
+
+      background-image: url('https://www.universomascotas.co/css/universomascotas/Servicios(blanco).png');
+}
+#perros_1:hover:before, .content_cat_main .active #perros_1:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/perro(blanco).png');
+
+	}
+	#gatos_34:hover:before,.content_cat_main .active #gatos_34:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/gato(blanco).png');
+
+	}
+	#servicios_76:hover:before,.content_cat_main .active #servicios_76:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/Servicios(blanco).png');
+
+	}
+	.mega-menu ul li a:hover, .vertical-menu-um ul li.has-children a:hover{
+
+		color: #EE7C1C!important;
+	}
+
+.vertical-menu-um  > ul > li:nth-child(odd) > a{
+   background-color: #56D1C3;
+   transition: all 0.3s;
+   -webkit-transition: all 0.3s;
+
+}
+.vertical-menu-um  > ul > li:nth-child(odd) > a:hover,.navigation-um > div:nth-child(4) a:hover {
+   background-color: #51c3b6;
+   color:#fff!important;
+}
+.vertical-menu-um  > ul > li:nth-child(even) > a{
+   background-color: #ff5722;
+   transition: all 0.3s;
+   -webkit-transition: all 0.3s;
+
+
+}
+.vertical-menu-um  > ul > li:nth-child(even) > a:hover {
+
+	background-color: #ca4319;
+	color:#fff!important;
+
+}
+}
+@media screen and (max-width: 600px){
+
+	.official_stores_container{
+	height: auto;
+	flex-wrap: wrap;
+    }
+    .official_stores_container > .store_container {
+
+	width: 45%;
+	height: 180px;
+    }
+
+	.container-popup > .indicador_ciudad {
+
+		width: 90%;
+	}
+
+	.nav-decoration {
+	background: rgba(255, 255, 255, 0.47);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: none;
+    right: 0;
+    bottom: 0;
+    z-index: 10000000000000000;
+}
+.nav-decoration.active {
+
+	display: block;
+}
+.nav-decoration.active > .navigation-um {
+	display: block;
+}
+	nav .button {
+
+		background-color: #EDEDED!important;
+		color: #706F6F!important;
+		font-weight: 400;
+	}
+	nav div:nth-child(4) a {
+		width: 100%!important;
+	}
+	nav div:nth-child(5) a {
+		text-align: center;
+	}
+	nav .dropdown:focus {
+
+		background-color: #009F9B;
+		color:#fff;
+
+	}
+	.navigation-um {
+		background: none;
+        box-shadow: none;
+		position: absolute;
+		width: 65%;
+		max-height: 460px;
+        overflow: scroll;
+		left: initial;
+		right: 0;
+	}
+	.container-nav {
+	position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+	}
+	.mega-menu > ul, .mega-menu > ul > li > ul {
+		line-height: 1.8;
+	}
+	.dropdown-column ul li:not(.dropdown-header) {
+		display: none;
+
+	}
+	.dropdown-column .dropdown-header {
+		border-bottom: none!important;
+	}
+	.mega-menu {
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.mega-menu ul li.dropdown-column {
+
+		width: 100%;
+		display: block;
+	}
+
+	.vertical-menu-um {
+
+		display: block!important;
+		width: 100%;
+	}
+
+	.vertical-menu-um > ul > li {
+
+		width: 100%;
+		display: initial;
+	}
+	.vertical-menu-um ul li > a {
+
+		background-color: #ededed!important;
+		color:#706F6F!important;
+		position: relative;
+		text-align: left;
+	}
+
+	.fixed-top-nav {
+
+		background: #fff!important;
+	}
+
+	.nav-container.active {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 108px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 99999;
+    bottom: 0;
+	}
+	.fixed-top-nav .nav-container.active {
+
+		top: 87px;
+	}
+
+	 .nav-container.active > nav {
+
+	 	display: block;
+	 }
+
+	.navigation-um > div > a {
+
+		padding: 0.5em 0.8em!important;
+		float:left;
+		text-align: left;
+		position: relative;
+	}
+	.mega-menu, .vertical-menu-um ul li > ul {
+
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#perros_1:before {
+
+		background-image: url(https://www.universomascotas.co/css/universomascotas/perro.png);
+	}
+	#gatos_34:before {
+
+		background-image: url(https://www.universomascotas.co/css/universomascotas/gato.png);
+
+	}
+
+	#servicios_76:before {
+
+		background-image: url(https://www.universomascotas.co/css/universomascotas/Servicios.png);
+	}
+
+	nav > div:nth-child(2) a:before {
+    content: '';
+	background-image: url(https://www.universomascotas.co/css/universomascotas/BlogUM.png)!important;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 31px;
+    background-position: left;
+	}
+	nav > div:nth-child(3) a:before {
+    content: '';
+	background-image: url(https://www.universomascotas.co/css/universomascotas/Adopcion.png)!important;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 31px;
+    background-position: left;
+	}
+	nav > div:nth-child(4) a:before {
+    content: '';
+	background-image: url(https://cdndevel.totalcode.com/universomascotas.beta/web_content/assets/marca.png)!important;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 31px;
+    background-position: left;
+	}
+	.mega-menu .dropdown-column, .vertical-menu-um ul li ul > li {
+
+		float: none;
+		display: block;
+		padding: 3px 0px;
+        box-sizing: border-box;
+	}
+	.vertical-menu-um .has-children ul li > ul {
+
+		display: none;
+	}
+	.vertical-menu-um ul li.has-children ul {
+		min-width: 0px;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.mega-menu .dropdown-column ul > .dropdown-header, .vertical-menu-um ul li ul li > a {
+
+		border-bottom: none;
+		background-color: #f3f0f1!important;
+		margin-bottom: 0px;
+		text-align: left;
+		padding-left: 15px!important;
+	}
+
+
+	.vertical-menu-um ul li.active > a {
+
+		background-color: #009F9B!important;
+		color: #fff!important;
+	}
+	.vertical-menu-um ul li.has-children > a:after {
+
+	content: '';
+	width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    border: solid 4px;
+    background: transparent;
+    border-color: transparent   transparent  transparent #706F6F;
+    border-top-style: solid;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+
+	}
+
+
+
+	.vertical-menu-um .active #perros_1:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/perro(blanco).png');
+
+	}
+	.vertical-menu-um .active #gatos_34:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/gato(blanco).png');
+
+	}
+	.vertical-menu-um  li.active #servicios_76:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/Servicios(blanco).png');
+
+	}
+	.vertical-menu-um  li.active > #antiplugas_y_antiparasitarios_4:before,.vertical-menu-um  li.active > #antiplugas_y_antiparasitarios_44:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/antipulgas-antiparacitarios(blanco).png');
+
+	}
+	.vertical-menu-um  li.active > #accesorios_y_juguetes_3:before,.vertical-menu-um  li.active > #accesorios_y_juguetes_42:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/accesorios-juguetes(blanco).png');
+
+	}
+	.vertical-menu-um  li.active > #comida_2:before,.vertical-menu-um  li.active > #comida_35:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/comida(blanco).png');
+
+	}
+	.vertical-menu-um  li.active >  #ropa_5:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/talla(blanco).png');
+
+	}
+	.vertical-menu-um  li.active >  #estÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©tica_y_cuidado_43:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/estetica-cuidados(blanco).png');
+
+	}
+	.vertical-menu-um li.active > #arenas_y_sanitarios_97:before {
+     background-image: url('https://cdndevel.totalcode.com/universomascotas.beta/web_content/assets/arenas(blanco).png');
+
+	}
+	.vertical-menu-um li.active > #estÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©tica_y_cuidado_6:before,.vertical-menu-um li.active > #estÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©tica_y_cuidado_43:before {
+
+		background-image: url('https://www.universomascotas.co/css/universomascotas/estetica-cuidados(blanco).png');
+
+	}
+	.vertical-menu-um  li.active >  #muebles_50:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/muebles(blanco).png');
+
+	}
+	.vertical-menu-um  li.active >  #gatos_86:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/bano-gato(blanco).png');
+
+	}
+	.vertical-menu-um  li.active >  #perros_77:before {
+     background-image: url('https://www.universomascotas.co/css/universomascotas/mestetica-cuidados(blanco).png');
+
+	}
+
+    .vertical-menu-um  li.active >  #estÃƒÆ’Ã‚Â©tica_y_cuidado_6:before {
+     background-image: url('https://cdn.totalcode.com.co/universomas-sandbox/web_content/assets/estetica-cuidados(blanco).png');
+
+    }
+
+
+}
+
+@media screen and (max-width: 430px){
+
+    .group_shield .dpr_container {
+
+        margin:1em 1px;
+    }
+}
