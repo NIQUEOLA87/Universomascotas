@@ -1,0 +1,42 @@
+<main class="blank vendor" id="maincontent">
+	<section class="grid-container">
+		<aside class='info_seller large-3 columns'>
+			<div class='info_seller_container' id="container">
+				<div id="container-image">
+				</div>
+				<div class="qualification_seller_login">
+					<h3>Califique al vendedor</h3>
+					    [[forma_rate]]
+				</div>
+			</div>
+		</aside>
+		   <section class='large-9 small-12 medium-10 group_shield grid-x'>
+			[[info_seller]]
+			<div class="cell small-12 medium-5 order-by-section">
+					[[tpl_sort_by]]
+				</div>
+			[[div_with_products]] 
+		     </section>
+			<div>
+				<h4>Lo que opinan otros compradores</h4>
+				[[list_reviews]]
+			</div>
+			<div class="grid-x align-middle navigation-category-um">
+				<div class="cell small-12 medium-2 breadcrumbs-um">
+				</div>
+				<div class="cell medium-auto navigation-pages show-for-medium">
+						 [[page_nav_grid]]
+				</div>
+				
+			</div>
+	</section>
+</main>
+<script>
+
+  $(document).ready(function() {
+
+
+  	      $('.seller_img').appendTo('#container-image');
+  });
+
+</script>

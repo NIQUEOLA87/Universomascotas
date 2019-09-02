@@ -1,0 +1,117 @@
+<!-- PRODUCT HTML -->
+<main class="product-um">
+	<div class="grid-container navigation-category-um">
+		<div class="cell small-12 breadcrumbs-um">
+			[[product_breadcrumbs]]
+		</div>
+	</div>
+	<section class="grid-container full" itemscope itemtype="http://schema.org/Product">
+		 <div class="grid-container">
+			 <div class="cell small-12 banner-promocional">
+    [[carrousel(9)]]
+</div> 
+			<div class="grid-x bg-white">
+				<div class="cell small-12 medium-4 galery-product-um">
+					<div class="cell small-12">
+						[[product_gallery]]
+						[[product_stock_status]]
+					</div>
+				</div>
+				<div class="cell small-12 medium-8">
+					<div class="grid-container">
+						<div class="grid-x grid-margin-x">
+							[[product_structured_data]]
+							<div class="cell small-12">
+								[[product_manufacturer_part]]
+							</div>
+							<div class="cell small-12">
+								<span>[[product_manufacturer_part]]</span>
+								<h1 class="h5 title-product-um" itemprop="name">[[product_name]]</h1>
+								<small>SKU [[product_sku]]</smal>
+							
+							</div>
+							<div class="grid-x align-middle cell small-12">
+								<div class="cell small-12 medium-4 price-product-um">
+										[[product_price_html]]
+								</div>
+								<div class="cell small-12 medium-8 shopping-buttom-um">
+									[[product_form]]
+									
+							</div>
+							<div class="cell small-4 metodos-pagos">
+								<div class="Producto_recurrente">
+			[[product_recurring_option]]
+		</div>
+								
+<div id="metodo-pagos">
+	 <img src="https://cdn.totalcode.com.co/universomascotas/web_content/assets/metodospagos-universomascotas.jpg">
+</div>
+
+							</div>
+							<div class="cell small-12 share-social-media-um">
+								[[product_share]]
+							</div>
+							<div class="cell small-12 medium-8 product-review-um">
+									[[product_review_score]]
+								</div>
+							<div class="cell small-12 link-reviews-um">
+								<a id="reviews-um">Ver comentarios</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="grid-container">
+			<div class="grid-x grid-margin-x">
+				<div class="cell small-12 medium-8">
+					<div class="combo-product">
+						[[product_combo_discounts]]
+					</div>
+
+					
+
+					<div class="product-description-um">
+					[[product_description_short]]
+					[[product_description]]
+					</div>
+				</div>
+				<div class="cell small-12 medium-4 specifications-um">
+					[[product_specs]]
+				</div>
+			</div>
+		</div>
+		<div class="grid-container full bg-light-gray">
+			<div class="grid-container">
+				<div class="grid-x">
+					<div class="grid-container grid-x reviews-um">
+						[[product_reviews]]
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="grid-container grid-x">
+		<div class="cell small-12">
+			[[product_related]]
+		</div>
+		<div class="cell small-12">
+			[[product_recently_visited]]
+		</div>
+		<div class="cell small-12">
+			[[cart_suggestions]]
+		</div>
+	</section>
+</main>
+<!-- .PRODUCT-UM -->
+
+<script  type="text/javascript" charset="utf-8" async defer>
+	 $("input.button_prod_add").val("Comprar");
+ 
+	$("#reviews-um").click(function (){
+      $('html, body').animate({
+          scrollTop: $(".reviews-um").offset().top
+      }, 800);
+      return false;
+  });
+</script>

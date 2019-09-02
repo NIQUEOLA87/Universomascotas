@@ -1,0 +1,95 @@
+<script src="https://cdn.totalcode.com.co/javascript/jquery.range.min.js"></script>
+<style>.slider-container {width: 300px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; } .slider-container .back-bar {height: 10px; position: relative; } .slider-container .back-bar .selected-bar {position: absolute; height: 100%; } .slider-container .back-bar .pointer {position: absolute; width: 10px; height: 10px; background-color: red; cursor: col-resize; opacity: 1; z-index: 2; } .slider-container .back-bar .pointer.last-active {z-index: 3; } .slider-container .back-bar .pointer-label {position: absolute; top: -17px; font-size: 8px; background: white; white-space: nowrap; line-height: 1; } .slider-container .back-bar .focused {z-index: 10; } .slider-container .clickable-dummy {cursor: pointer; position: absolute; width: 100%; height: 100%; z-index: 1; } .slider-container .scale {top: 2px; position: relative; } .slider-container .scale span {position: absolute; height: 5px; border-left: 1px solid #999; font-size: 0; } .slider-container .scale ins {font-size: 9px; text-decoration: none; position: absolute; left: 0; top: 5px; color: #999; line-height: 1; } .slider-container.slider-readonly .clickable-dummy, .slider-container.slider-readonly .pointer {cursor: auto; } .theme-blue .back-bar {height: 5px; border-radius: 2px; background-color: #fc9100; background-color: #fc9100; background-image: -moz-linear-gradient(top, #fc9100, #fc9100); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fc9100), to(#fc9100)); background-image: -webkit-linear-gradient(top, #fc9100, #fc9100); background-image: -o-linear-gradient(top, #fc9100, #fc9100); background-image: linear-gradient(to bottom, #fc9100, #fc9100); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeeeeee', endColorstr='#ffdddddd', GradientType=0); } .theme-blue .back-bar .selected-bar {border-radius: 2px; background-color: #92c1f9; background-image: -moz-linear-gradient(top, #cacaca, #333); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cacaca), to(#333)); background-image: -webkit-linear-gradient(top, #cacaca, #fc9100); background-image: -o-linear-gradient(top, #cacaca, #333); background-image: linear-gradient(to bottom, #cacaca, #333); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb1d1f9', endColorstr='#ff64a8f9', GradientType=0); } .theme-blue .back-bar .pointer {width: 14px; height: 14px; top: -5px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-radius: 10px; background-color: #fc9100; background-image: -moz-linear-gradient(top, #fc9100, #fc9100); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fc9100), to(#fc9100)); background-image: -webkit-linear-gradient(top, #fc9100, #fc9100); background-image: -o-linear-gradient(top, #fc9100, #fc9100); background-image: linear-gradient(to bottom, #fc9100, #fc9100); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeeeeee', endColorstr='#ffdddddd', GradientType=0); } .theme-blue .back-bar .pointer-label {color: #999; } .theme-blue .back-bar .focused {color: #333; } .theme-blue .scale span {border-left: 1px solid #e5e5e5; } .theme-blue .scale ins {color: #999; } </style> <main class="category-sales">
+	<section class="grid-container full">
+		<div class="grid-container">
+			<div class="grid-x">
+				<div class="small-12 medium-7">
+					[[tpl_top_banner_div]]
+				</div>
+				<div class="small-12 medium-5">
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="grid-container full">
+		<div class="grid-container">
+			<div class="grid-x align-middle navigation-category-um">
+				<div class="cell small-12 medium-2 breadcrumbs-um">
+					[[category_breadcrumbs]]
+				</div>
+				<div class="cell medium-auto navigation-pages show-for-medium">
+						 [[page_nav_grid]]
+				</div>
+				<div class="cell small-12 medium-2 order-by-section">
+					[[tpl_sort_by]]
+				</div>
+			</div>
+			<div class="grid-x">
+				<aside class="small-12 medium-2">
+					<div class="categories-filter sub-categorie-filter">
+						<div class="use-filters">
+							[[tr_spec_filters_on_use]]
+						</div>
+						<div class="filtros-lista">
+							[[categorias]]
+						</div>
+					</div>
+					<div class="categories-filter">
+						[[cat_description]]
+						[[tr_spec_filters_list]]
+						[[tr_spec_filter_js_vars]]
+					</div>
+					 <div class="precio-l">
+			            <div class="title-filtros">
+			              <p>PRECIO</p>
+			            </div>
+			            <div class="content-f">
+			              <div class="prod_list_filter">
+			                <input class="range-slider" type="hidden" value="" />
+			              </div>
+			              <!-- input -->
+			              <div>			                
+			                <input type="button" value="filtrar por precio" id="but-filter-price" class="button alert small text-white expanded">
+			              </div>
+			              <!-- input -->
+			            </div>
+			        </div>
+				</aside>
+				<section class="small-12 medium-10 group_shield grid-x">
+				[[div_with_products]]
+				</section>
+				<div class="grid-container text-center">
+					[[tpl_sales_tax_included]]
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="grid-container">
+		<div class="small-12 navigation-pages last-nav-pages">
+			[[page_nav_grid]]
+		</div>
+	</div>
+</main>
+<script>
+    $('.range-slider').jRange({
+      theme: "theme-blue",
+        from: 10000,
+        to: 500000,
+        step: 100000,
+        scale: ['$10 Mil','$100 Mil','$200 Mil','$300 Mil','$400 Mil','$500 Mil'],
+        format: '%s',
+        width: 150,
+        showLabels: true,
+        isRange: true
+    });
+    $('.range-slider').jRange('setValue', '10000,200000');
+
+    $(document).ready(function(){
+      $("#but-filter-price").click(function() {
+      	var valoresFiltroPrecio = $('.range-slider').val().replace(',','-');
+        var resValoresFiltroPrecio = valoresFiltroPrecio.split('-');
+        window.location.href='?pf='+resValoresFiltroPrecio[0]+'&pt='+resValoresFiltroPrecio[1];
+      });
+
+    });
+</script>

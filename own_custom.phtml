@@ -1,0 +1,194 @@
+<?php
+
+$continuar_script=false;
+$custom_product_cats=array();
+//si el producto es container se busca por ese sino por su option_of
+// p.container, p.option_of	
+//print_r($products);
+//echo '<hr />';
+//print_r(array_keys($arr_productos_t));
+//echo '<hr />';
+if ($products['option_of'] > 0) {
+	//para buscar en las madre cuando estamos en una variante
+	$sql='SELECT * FROM prod_custom WHERE product_num="'.$products['option_of'].'" AND active="1" ';
+	//echo '1-'.$sql.'<br />';
+	$pre_cust=fx_db_query($sql);
+	//echo 'rows '.mysqli_num_rows($pre_cust).'<br />';
+	if (mysqli_num_rows($pre_cust)) {
+		$continuar_script=true;
+	} else {
+		//buscar por ese producto
+		$sql='SELECT * FROM prod_custom WHERE product_num="'.$product.'" AND active="1" ';
+		//echo '1a-'.$sql.'<br />';
+		$pre_cust=fx_db_query($sql);
+		if (mysqli_num_rows($pre_cust)) {
+			$continuar_script=true;
+		}
+	} 
+} else {
+	//sirve para variante o producto unico o madre
+	$sql='SELECT * FROM prod_custom WHERE product_num="'.$product.'" AND active="1" ';
+	//echo '2-'.$sql.'<br />';
+	$pre_cust=fx_db_query($sql);
+	if (mysqli_num_rows($pre_cust)) {
+		$continuar_script=true;
+	} else {
+		//si no hay para madres buscar para variantes y crearlos solo que estos seran display:none o block de acuerdo a si se carga la variante
+		if ($arr_productos_t) {
+			foreach ($arr_productos_t as $k=>$i) {
+				//sacar lista de variantes que si esten en prod_custom
+				//echo $k.'-';
+				$product_filter.=$k.', ';
+			}
+			$product_filter = substr($product_filter,0,-2);
+			$sql='SELECT * FROM prod_custom WHERE product_num IN ('.$product_filter.') AND active="1" ';
+			//echo $sql.'<br />';
+			$pre_cust=fx_db_query($sql);
+			if (mysqli_num_rows($pre_cust)) {
+				$continuar_script=true;
+				$estilo_own_custom='display:none;';
+				//el script que lo pone en block o hidden esta en el  javascript de show_product
+			}
+		}//if (array_keys($arr_productos_t))
+	}
+}
+//echo $sql.'<br />';
+
+if ($continuar_script) {
+	
+	while ($cust=mysqli_fetch_assoc($pre_cust)) {
+		//print_r($cust);
+		//echo '<hr />';
+		if (!is_array($custom_product_cats[$cust['product_num']])) {
+			$custom_product_cats[$cust['product_num']]=array();
+			$cust_product_num=$cust['product_num'];
+		}
+		
+		$cat_num=$cust['custom_cat_num'];
+		$description=$cust['description'];
+		$sql='SELECT pccl.custom_cat_num, pccl.name, pccl.description FROM prod_custom_cats_lang pccl WHERE  pccl.custom_cat_num="'.$cat_num.'" AND pccl.active="1" AND pccl.lang="'.$lang.'" 
+		';
+		//echo $sql.'<br />';
+		$pre_cat=fx_db_query($sql);
+		$cat=mysqli_fetch_assoc($pre_cat);
+		$cat_name=$cat['name'];
+		$cat_description=$cat['description'];
+		
+		$sql='SELECT pcol.name FROM prod_custom_options pco, prod_custom_options_lang pcol WHERE pco.custom_cat_num="'.$cat_num.'" AND pco.active="1" AND pco.custom_option_num=pcol.custom_option_num AND pcol.lang="'.$lang.'"
+		';
+		//echo $sql.'<br />';
+		$pre_options=fx_db_query($sql);
+		if (mysqli_num_rows($pre_options) ) {
+			$tmp_arr=array();
+			while ($options=mysqli_fetch_assoc($pre_options)) {
+				array_push($tmp_arr,$options['name']);
+			}
+			$tmp_arr2=array();
+			$tmp_arr2=array(
+				'cat_name'=>$cat_name,
+				'cat_description'=>$cat_description,
+				'option'=>$tmp_arr,
+			);
+			array_push($custom_product_cats[$cust['product_num']],$tmp_arr2);
+		} else {
+			$tmp_arr2=array();
+			$tmp_arr2=array(
+				'cat_name'=>$cat_name,
+				'cat_description'=>$cat_description,
+				'option'=>'',
+			);
+			//print_r($tmp_arr2);
+			array_push($custom_product_cats[$cust['product_num']],$tmp_arr2);
+		}
+		
+	}//while ($cust=mysqli_fetch_assoc($pre_cust))
+	//echo '<pre>';
+	//print_r($custom_product_cats);
+	//echo '</pre>';
+	
+	foreach ($custom_product_cats as $prod_num=>$res) {
+		$own_custom.='
+		<div class="own_custom" id="own_custom_'.$prod_num.'" style="'.$estilo_own_custom.'">
+			<div class="own_custom_h3">'.$lang_customization.'</div>
+		';
+		$script_arrs=array();
+		$script_vars='';
+		foreach ($res as $id=>$valores) {
+			$own_custom.='<div class="own_custom_tit">'.$valores['cat_name'].'</div>
+			<div class="own_custom_desc">'.$valores['cat_description'].'</div>
+			
+			';
+			if ($valores['option'] != '') {
+				$own_custom.='
+				<div class="own_custom_select">
+				<select name="'.str_replace(" ","_",$valores['cat_name']).'" id="'.str_replace(" ","_",$valores['cat_name']).'_'.$prod_num.'" class="select_custom">
+				<option value="">'.$lang_please_select.'</option>
+				';
+				foreach ($valores['option'] as $op) {
+					$own_custom.='<option value="'.$op.'">'.$op.'</option>';
+				}
+				$own_custom.='</select>
+				</div>
+				';
+				$script_vars.='texto+="'.$valores['cat_name'].':"+$("#'.str_replace(" ","_",$valores['cat_name']).'_'.$prod_num.' option:selected").val()+" | ";
+				';
+				$script_arrs[$id]=array(str_replace(" ","_",$valores['cat_name']).'_'.$prod_num,"change");
+			} else {
+				$own_custom.='
+				<div class="own_custom_text">
+				<input type="text" name="'.str_replace(" ","_",$valores['cat_name']).'" id="'.str_replace(" ","_",$valores['cat_name']).'_'.$prod_num.'" class="text_custom">
+				</div>
+				';
+				$script_vars.='texto+="'.$valores['cat_name'].':"+$("#'.str_replace(" ","_",$valores['cat_name']).'_'.$prod_num.'").val()+" | ";
+				';
+				$script_arrs[$id]=array(str_replace(" ","_",$valores['cat_name']).'_'.$prod_num,"blur");
+			}
+			
+			
+		}//foreach ($res as $id=>$valores) {
+		$own_custom.='
+		</div>
+		';
+		//print_r($script_arrs);
+		foreach ($script_arrs as $arr) {
+			if ($arr[1]=="blur") {
+				$scripting.='$("#'.$arr[0].'").on("blur", function() {
+					var texto="";
+					'.$script_vars.'
+					$("#pers_text").val(texto);
+				});
+				';
+			}
+			if ($arr[1]=="change") {
+				$scripting.='$("#'.$arr[0].'").change(function() {
+					var texto="";
+					'.$script_vars.'
+					$("#pers_text").val(texto);
+				});
+				';
+	
+			}
+		}//foreach ($script_arrs as $arr)
+	}//foreach ($custom_product_cats as $prod_num=>$res)
+	$own_custom.='
+	<input type="hidden" name="pers_text" id="pers_text">
+	';
+	
+	//poner un span donde se hace clear de la personalizacion
+	//poner un option vacio en los selects? 
+	$own_custom.='
+	<script>
+		var texto="";
+		'.$scripting.'
+		
+		$(document).ready(function() {
+			var option_cargada=$("#product_purch").val();
+			if ($(".own_custom") ) {
+				$("#own_custom_"+option_cargada).css("display","block");
+			}
+		});
+	</script>
+	';
+}//if (mysqli_num_rows($pre_cust))	
+	
+?>

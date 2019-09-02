@@ -1,0 +1,146 @@
+<!-- product-original -html -->
+<style>
+.para_tabs {
+	margin:0px 4px;
+	float:left;
+	background:#DDDDDD;
+	height:40px;
+	padding-top:17px;
+	border:1px solid #DDDDDD;
+}
+.para_tabs2 {
+	margin:0px 4px;
+	float:left;
+	background:#FFF;
+	height:40px;
+	padding-top:17px;
+	border:1px solid #DDDDDD;
+	border-bottom:1px solid #fff;
+}
+.link_tab {
+	
+	color:#000;
+	font-size: 16px;
+	padding:0px 15px;
+	text-decoration:none;
+
+}
+.link_tab:link {
+	
+	color:#000;
+}
+.link_tab:visited {
+	
+	color:#BA0D13;
+	
+}
+.link_tab:hover {
+	color:#88888F;
+}
+.link_tab:active {
+	color:#BA0D13;
+	
+}
+.link_tab_visited {
+	color:#BA0D13;
+	font-size: 16px;
+	padding:0px 15px;
+	text-decoration:none;
+}
+
+
+
+</style>
+<script>
+var lostabs = new Array("product_description","product_specs","product_review");
+var min_height=200;
+function show_tab(tab_id,tab,link) {
+	var clase=$("#"+link).attr("class");
+	if (clase=='link_tab_visited') {
+		
+	} else {
+		for (var j=0; j< lostabs.length; j++) {
+			if(lostabs[j] != tab_id ) {
+				$("#"+lostabs[j]).css("display","none");
+				$("#tab"+j).removeClass().addClass("para_tabs");
+				$("#link"+j).removeClass().addClass("link_tab");
+			}
+		}
+		$("#"+tab).removeClass().addClass("para_tabs2");
+		$("#"+link).removeClass().addClass("link_tab_visited");
+		$("#"+tab_id).css("display","block");
+		var altura_contenedor_tabs=$("#contenedor_tabs").height()*1;
+		var altura_tab_puesto=$("#"+tab_id).height()*1;
+		if (altura_contenedor_tabs <= altura_tab_puesto) {
+			$("#contenedor_tabs").height((altura_tab_puesto+5));
+		} else {
+			$("#contenedor_tabs").height(min_height)
+		}
+	}
+	
+}
+</script>
+<div style="width:1180px; margin:0 auto; border:0px solid green; background:#fff;">
+	<div style="margin-left:40px;">[[product_breadcrumbs]]</div>
+	<div id="content" style="border:0px solid red; width:1100px; margin-left:40px; ">
+		<div style="float:left; border:0px solid blue; width:200px; margin-left:4px; margin-top:6px;" >
+			<div>
+				
+				[[tr_spec_filters]]
+				[[precio]]
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div style="float:right; border:0px solid green; margin-top:6px; width:850px;" >
+			[[product_added_cart]]
+			[[product_head]]
+		<div style="border:0px solid red; margin-bottom:10px;">
+			<img src="[[cdn_domain]]/css/tetengoelregalo/images/pagosPayU-label.jpg" border="0" style="margin-left:270px;">
+		</div>
+		
+		<div style="margin-top:20px; border:0px solid red; width:834px; margin-left:8px; ">
+			<div style="border:0px solid blue; z-index:40; position:relative; top:1px;">
+				<div id="tab0" class="para_tabs" >
+					<a id="link0" class="link_tab" href="javascript:show_tab('product_description','tab0','link0')">Descripción</a>
+				</div>
+				<div id="tab1" class="para_tabs" >
+					<a id="link1"  class="link_tab" href="javascript:show_tab('product_specs','tab1','link1')">Especificaciones</a>
+				</div>
+				<div id="tab2" class="para_tabs" >
+					<a id="link2"  class="link_tab" href="javascript:show_tab('product_review','tab2','link2')">Comentarios</a>
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+			<div id="contenedor_tabs" style="border:1px solid #DDDDDD; position:relative; height:200px; overflow:auto; margin-bottom:10px; ">
+				[[product_reviews]]				
+				[[product_specs]]
+				[[product_description]]
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+			<div style="clear:both;"></div>
+			<script>
+				$(document).ready(function(){
+					$("#product_description").css("display","block");
+					var altura_product_description=$("#product_description").height()*1;
+					var altura_contenedor_tabs=$("#contenedor_tabs").height()*1;
+					//alert (altura_product_description+" vs "+altura_contenedor_tabs);	
+					if (altura_contenedor_tabs < altura_product_description) {
+						$("#contenedor_tabs").height((altura_product_description+5))
+					}	
+					$("#tab0").removeClass().addClass("para_tabs2");
+					$("#link0").removeClass().addClass("link_tab_visited");			
+				})
+				
+				
+			</script>
+
+			[[product_related]]
+			[[product_recently_visited]]	
+			
+			
+		</div>
+		<div id="clear"></div>
+	</div>
+	<div style="clear:both;"></div>
+</div>
